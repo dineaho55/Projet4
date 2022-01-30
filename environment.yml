@@ -1,0 +1,29 @@
+name: inf8801
+
+channels:
+  - defaults
+  - conda-forge
+  - anaconda
+
+dependencies:
+  - python=3.7
+  - numpy
+  - scipy
+  - matplotlib
+  - jupyter
+  - tqdm
+  - seaborn
+  - moviepy
+  - pip
+  - pip:
+      - opencv-python
+      - opencv-contrib-python==3.4.2.17
+      - more-itertools
+      - psutil
+      - scikit-learn
+      - tensorflow==1.14.0
+      - tensorflow-gpu
+      - keras==2.3.1
+     
+
+
